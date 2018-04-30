@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.edx-irc-notifier]
+file_filter = irc_notifier/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = irc_notifier/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.edx-irc-notifier-js]
+file_filter = irc_notifier/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = irc_notifier/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
