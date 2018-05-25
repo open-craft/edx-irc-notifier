@@ -14,3 +14,6 @@ class IrcNotifierConfig(AppConfig):
     """
 
     name = 'irc_notifier'
+
+    def ready(self):
+        from . import signals
